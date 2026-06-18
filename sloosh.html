@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sloosh — Установка</title>
+  <title>sloosh — Установка</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -12,88 +12,83 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #0a0a0a;
+      background: #fafaf8;
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
-      color: #fff;
+      color: #1a1a1a;
     }
 
     .card {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 32px;
-      padding: 48px 40px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 28px;
-      backdrop-filter: blur(20px);
+      gap: 24px;
+      padding: 32px 24px;
       width: 90%;
-      max-width: 380px;
+      max-width: 320px;
       text-align: center;
     }
 
     .icon {
-      width: 96px;
-      height: 96px;
-      border-radius: 22px;
-      background: linear-gradient(135deg, #0ea5e9, #06b6d4);
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      background: #c8e6a0;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 8px 32px rgba(14, 165, 233, 0.4);
-      font-size: 44px;
+      font-size: 40px;
     }
 
     .info h1 {
-      font-size: 26px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      margin-bottom: 8px;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-bottom: 6px;
     }
 
     .info p {
-      font-size: 14px;
-      color: rgba(255,255,255,0.45);
-      line-height: 1.5;
+      font-size: 13px;
+      color: #666;
+      line-height: 1.4;
     }
 
     .btn {
       display: block;
       width: 100%;
-      padding: 16px;
-      background: linear-gradient(135deg, #0ea5e9, #06b6d4);
+      padding: 14px 20px;
+      background: #9db93f;
       color: #fff;
-      font-size: 16px;
-      font-weight: 600;
-      border-radius: 14px;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 50px;
       text-decoration: none;
-      letter-spacing: -0.2px;
-      box-shadow: 0 4px 20px rgba(14, 165, 233, 0.35);
-      transition: opacity 0.15s, transform 0.15s;
+      letter-spacing: -0.1px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
     }
 
     .btn:active {
-      opacity: 0.85;
-      transform: scale(0.98);
+      background: #8ca635;
     }
 
     .note {
-      font-size: 12px;
-      color: rgba(255,255,255,0.25);
+      font-size: 11px;
+      color: #999;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="icon">🌊</div>
+    <div class="icon">💧</div>
     <div class="info">
-      <h1>Sloosh</h1>
-      <p>Приложение для iPhone. Открывай в Safari.</p>
+      <h1>sloosh</h1>
+      <p>Установи приложение на свой iPhone</p>
     </div>
     <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/sluvskii/installcertipa/main/manifest/sloosh.plist">
       Установить
     </a>
-    <span class="note">Только Safari · iOS</span>
+    <span class="note">Открывай в Safari · iOS</span>
   </div>
 </body>
 </html>
